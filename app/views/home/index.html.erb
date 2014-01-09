@@ -1,16 +1,46 @@
 <div class="container">
-  <div class="page-header">
-    <center><h1>Welcome to Bootstrap Settlement <small>Rails</small></h1></center>
+  <div class="jumbotron">
+    <center><h1>Bootstrap Settlement <small>Rails</small></h1></center>
     <center><p>The Bootstrap Settlement is merely a starting point for your Rails projects.  Below describes what is used.</p></center>
+    <center><div class="btn-group">
+      <button type="button" class="btn btn-primary btn-lg">View on Github</button>
+      <button type="button" class="btn btn-primary btn-lg">Fork on Github</button>
+    </div></center>
   </div>
   <div class="panel panel-primary">
     <!-- Default panel contents -->
-    <div class="panel-heading">Gems added to Gemfile for Bootstrap 3</div>
+    <div class="panel-heading">General Project Info</div>
+
+    <!-- Table -->
+    <table class="table">
+      <tr>
+        <th>Rails version:</th>
+        <td>4.0.2</td>
+      </tr>
+      <tr>
+        <th>Ruby version:</th>
+        <td>2.0.0</td>
+      </tr>
+      <tr>
+        <th>Database:</th>
+        <td>PostgreSQL</td>
+      </tr>
+    </table>
+    <div style="margin-bottom: 0; border-top-right-radius: 0px; border-top-left-radius: 0px;" class="alert alert-info"><strong>Postgres</strong> is in the Gemile as <code>gem 'pg'</code> as well as in <code>/config/database.yml</code> - this is recommended for use with <a class="alert-link" href="https://devcenter.heroku.com/articles/cedar">Heroku Cedar</a> stack.</div>
+  </div>
+  <div class="panel panel-primary">
+    <!-- Default panel contents -->
+    <div class="panel-heading">Gems added to Gemfile for Bootstrap 3 <small style="color: #d4d4d4;">Click on a gem to view it on Github</small></div>
 
     <!-- List group -->
     <ul class="list-group">
-      <a href="#"<li class="list-group-item"><code>gem 'rails_layout'</code></li></a>
-      <a href="#"<li class="list-group-item"><code>gem 'bootstrap-sass'</code></li></a>
+      <li class="list-group-item">
+        <a href="https://github.com/RailsApps/rails_layout"><code>gem 'rails_layout'</code></a>
+      </li>
+      <li class="list-group-item">
+        <a href="https://github.com/twbs/bootstrap-sass"><code>gem 'bootstrap-sass'</code></a>
+      </li>
+      <div style="margin-bottom: 0; border-top-right-radius: 0px; border-top-left-radius: 0px;" class="alert alert-success"><strong>The Bootstrap 3 layout</strong> has been generated and lives under <code>/app/views/layouts</code></div>
     </ul>
   </div>
 </div>
