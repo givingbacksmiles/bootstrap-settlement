@@ -29,6 +29,7 @@
 5.  `rake db:migrate`
 6.  `rails s` 
 7.  Check out the links towards the bottom for some really awesome resources for Bootstrap 3 design!
+8.  Begin designing and developing!  Enjoy the time saver.
 
 
 ****
