@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
+gem 'rails_12factor', group: :production
+
 # Use PostgreSQL as the database for Active Record
 gem 'pg'
 
@@ -14,9 +16,6 @@ end
 gem 'sass-rails', '~> 4.0.0'
 # Gems for Bootstrap 3
 gem 'bootstrap-sass'
-group :development do
-  gem 'rails_layout'
-end
 
 
 # Use Uglifier as compressor for JavaScript assets

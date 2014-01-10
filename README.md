@@ -8,8 +8,8 @@ ____
 **Ruby version:** 2.0.0
 
 
-Database: *PostgreSQL*
-P
+**Database:** PostgreSQL
+Only because it's better for use with Heroku's Cedar stack.
 
 
 
