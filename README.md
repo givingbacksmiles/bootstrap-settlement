@@ -34,7 +34,7 @@
 
 ****
 
-#### Additions to the Gemfile
+#### Additions to the Gemfile - these are already present just making sure you know what is providing the majority of this time saver.
 1.  `gem 'pg'`
 2.  `gem 'rails_12factor'`
 3.  `gem 'bootstrap-sass'`
