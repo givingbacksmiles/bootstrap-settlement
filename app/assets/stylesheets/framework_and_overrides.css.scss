@@ -1,8 +1,24 @@
-// add mixins here... http://getbootstrap.com/customize/#less-variables - for more
+/* add mixins here... http://getbootstrap.com/customize/#less-variables - for more */
+// Mixins
+//// Color System
 $brand-primary: #428bca;
-$navbar-default-bg: $brand-primary;
-$navbar-default-link-color: #f2f2f2;
-$navbar-default-link-hover-color: #4b4b4b;
+$brand-danger: #d9534f;
+$brand-success: #5cb85c;
+$brand-info: #5bc0de;
+$brand-warning: #f0ad4e;
+//// Navbar
+$navbar-default-bg: #444; // default is #f8f8f8
+$navbar-default-border: darken($navbar-default-bg, 6.5%);
+$navbar-default-brand-color: $brand-primary;
+//////// Links
+$navbar-default-link-color: #f2f2f2; // default is #777
+$navbar-default-link-hover-color: #d4d4d4; // default is #333
+
+
+
+
+
+
 
 // import the CSS framework
 @import "bootstrap";
