@@ -15,13 +15,6 @@
 
 ****
 
-#### Additions to the Gemfile
-1.  `gem 'pg'`
-2.  `gem 'rails_12factor'`
-3.  `gem 'bootstrap-sass'`
-3.  `gem 'rails_layout'`
-
-****
 
 #### Installation and Setup
 
@@ -36,6 +29,17 @@
 5.  `rake db:migrate`
 6.  `rails s` 
 7.  Check out the links towards the bottom for some really awesome resources for Bootstrap 3 design!
+
+
+****
+
+#### Additions to the Gemfile
+1.  `gem 'pg'`
+2.  `gem 'rails_12factor'`
+3.  `gem 'bootstrap-sass'`
+3.  `gem 'rails_layout'`
+
+****
 
 
 **Feel free to submit suggestions to this settlement [here].  I am looking forward to your opinions and enhancements.**
