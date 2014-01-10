@@ -23,6 +23,21 @@
 
 ****
 
+#### Installation and Setup
+
+1.  Fork or clone the repo.
+..1. Rename the application...
+2.  copy the `database.yml.example`
+..1.  create a new file under the config root directory called database.yml
+..2.  paste the database.yml.example in this file and insert your username and password.
+..3.  replace bootstrap-settlement with your application name for databases in database.yml
+3.  `bundle install`
+4.  `rake db:create`
+5.  `rake db:migrate`
+6.  `rails s` 
+7.  Check out the links towards the bottom for some really awesome resources for Bootstrap 3 design!
+
+
 **Feel free to submit suggestions to this settlement [here].  I am looking forward to your opinions and enhancements.**
 
 [here]:https://github.com/viaforge/bootstrap-settlement/issues/new
