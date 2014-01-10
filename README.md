@@ -2,6 +2,7 @@
 
 #### Jumpstart your Rails applications using Bootstrap 3.  All setup and ready to go.  Easy to use mixins and gems pre-installed for immediate design or development.
 ****
+
 **Rails version:** 4.0.2
 
 
@@ -12,6 +13,7 @@
 
 Only because it works better for use with Heroku's Cedar stack.
 
+****
 
 #### Additions to the Gemfile
 1.  `gem 'pg'`
@@ -19,5 +21,8 @@ Only because it works better for use with Heroku's Cedar stack.
 3.  `gem 'bootstrap-sass'`
 3.  `gem 'rails_layout'`
 
+****
 
+**Feel free to submit suggestions to this settlement [here].  I am looking forward to your opinions and enhancements.**
 
+[here]:https://github.com/viaforge/bootstrap-settlement/issues/new
