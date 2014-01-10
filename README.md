@@ -1,5 +1,5 @@
 # Bootstrap Settlement
-____
+
 #### Jumpstart your Rails applications using Bootstrap 3.  All setup and ready to go.  Easy to use mixins and gems pre-installed for immediate design or development.
 ****
 **Rails version:** 4.0.2
@@ -9,7 +9,15 @@ ____
 
 
 **Database:** PostgreSQL
-Only because it's better for use with Heroku's Cedar stack.
+
+Only because it works better for use with Heroku's Cedar stack.
+
+
+#### Additions to the Gemfile
+1.  `gem 'pg'`
+2.  `gem 'rails_12factor'`
+3.  `gem 'bootstrap-sass'`
+3.  `gem 'rails_layout'`
 
 
 
