@@ -11,7 +11,7 @@
 
 **Database:** PostgreSQL
 
-Only because it works better for use with Heroku's Cedar stack.
+*Postgres only because it works better for use with Heroku's Cedar stack.*
 
 ****
 
