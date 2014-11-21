@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-BootstrapSettlement::Application.load_tasks
+Curity::Application.load_tasks
